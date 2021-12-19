@@ -1,0 +1,107 @@
+/* index.html */
+
+html,
+body {
+  height: 99%;
+  position: relative;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#upperSection {
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+#upperChild {
+  position: absolute;
+  height: 10%;
+  width: 70%;
+  top: 70%;
+  left: 15%;
+  text-align: center;
+  font-size: 5em;
+}
+#lowerSection {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+}
+
+.staticButton {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 30px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 60px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: fixed;
+  left: 700px;
+}
+
+.movingButton {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 30px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 60px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: fixed;
+  left: 950px;
+}
+
+.button:hover {
+  background-color: #778ba5;
+}
+
+.button:active {
+  background-color: #778ba5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a:visited {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* thanks.html */
+#dBody{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+#container {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+marquee{
+  font-size: xx-large;
+}
